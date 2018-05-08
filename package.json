@@ -1,0 +1,16 @@
+{
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "start": "nodemon packages/accounting/start.js",
+        "build": "rollup -c packages/accounting/rollup.config.js",
+        "electron": "electron packages/accounting",
+        "electron-pack": "electron-packager packages/accounting --overwrite",
+        "postinstall": "electron-builder install-app-deps"
+    },
+    "devDependencies": {
+        "lerna": "^2.11.0"
+    }
+}

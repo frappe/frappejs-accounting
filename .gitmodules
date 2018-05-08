@@ -1,0 +1,6 @@
+[submodule "packages/frappejs"]
+	path = packages/frappejs
+	url = https://github.com/frappe/frappejs
+[submodule "packages/accounting"]
+	path = packages/accounting
+	url = https://github.com/frappe/accounting
