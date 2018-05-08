@@ -10,6 +10,17 @@ Both [FrappeJS](https://github.com/frappe/frappejs) and [Accounting](https://git
 
 ### Installation
 
+#### Step 0
+
+Install build essentials
+
+Ubuntu
+
+```bash
+apt-get install build-essential python git
+apt-get install libgconf-2-4
+```
+
 #### Step 1
 
 Install [Node.js](https://nodejs.org/en/) LTS (version 8.11.1)
