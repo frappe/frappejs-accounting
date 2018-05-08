@@ -29,7 +29,7 @@ npm install -g yarn
 Clone this repo
 
 ```bash
-git clone https://github.com/frappe/frappejs-accounting
+git clone --recurse-submodules https://github.com/frappe/frappejs-accounting
 ```
 
 #### Step 4
