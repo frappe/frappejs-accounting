@@ -4,12 +4,8 @@
         "packages/*"
     ],
     "scripts": {
-        "server": "nodemon packages/accounting/start.js",
-        "build": "rollup -c packages/accounting/rollup.config.js",
-        "watch": "rollup -c packages/accounting/rollup.config.js -w",
-        "electron": "electron packages/accounting",
-        "electron-pack": "electron-packager packages/accounting --overwrite",
-        "postinstall": "electron-builder install-app-deps"
+        "server": "cd packages/accounting && nodemon start.js",
+        "dev": "cd packages/accounting && yarn dev"
     },
     "devDependencies": {
         "lerna": "^2.11.0"
