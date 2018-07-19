@@ -54,20 +54,16 @@ cd frappejs-accounting
 # Install dependencies
 yarn
 
-# Build static assets (js/css)
-yarn build
+# Start development server
+yarn dev
 
-# Run Electron
-yarn electron
+# and in another shell
 
-# Or
-
-# Run Server
+# Run FrappeJS Server
 yarn server
 
 ```
 
-On running `yarn electron`, Accounting will be launched within an Electron window.
 On running `yarn server`, a Node server will start on http://localhost:8000
 
 ---
