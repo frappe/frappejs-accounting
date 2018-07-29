@@ -54,17 +54,12 @@ cd frappejs-accounting
 # Install dependencies
 yarn
 
-# Start development server
-yarn dev
-
-# and in another shell
-
-# Run FrappeJS Server
-yarn server
+# Start frappejs server
+yarn start
 
 ```
 
-On running `yarn server`, a Node server will start on http://localhost:8000
+On running `yarn start`, a Node server will start on http://localhost:8000, which will also handle bundling of assets using webpack middleware.
 
 ---
 
