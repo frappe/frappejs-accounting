@@ -4,8 +4,7 @@
         "packages/*"
     ],
     "scripts": {
-        "server": "cd packages/accounting && nodemon start.js",
-        "dev": "cd packages/accounting && yarn dev"
+      "start": "cd packages/accounting && yarn start"
     },
     "devDependencies": {
         "lerna": "^2.11.0"
