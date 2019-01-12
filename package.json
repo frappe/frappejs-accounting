@@ -4,7 +4,8 @@
         "packages/*"
     ],
     "scripts": {
-      "start": "cd packages/accounting && yarn start"
+        "start": "cd packages/accounting && yarn start",
+        "start-electron": "cd packages/accounting && cross-env MONO_REPO=true yarn electron"
     },
     "devDependencies": {
         "lerna": "^2.11.0"
